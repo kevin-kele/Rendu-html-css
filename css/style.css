@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7edd7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    background-color: #b8b1aa;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10%;
+    width: 100%;
+}
+
+li a {
+    display: flex;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    margin: 155px -290px 0px;
+}
+
+h1 {
+    width: 100%;
+    background-color: red;
+}
+
+#principale {
+    margin-top: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 4px rgb(65, 56, 56);
+}
+
+#conteineur {
+    display: flex;
+    justify-content: space-between;
+}
+
+#party_left_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#parti_left {
+    width: 60%;
+}
+
+#party_rigth {
+    width: 35%;
+    display: table-column;
+}
+
+.somaire {
+    display: flex;
+}
+
+#S_img {
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+h5 {
+    color: slategrey;
+}
+
+h3 {
+    color: red;
+}
+
+#position {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+ul li a:hover {
+    color: black;
+}
