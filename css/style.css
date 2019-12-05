@@ -107,3 +107,11 @@ h3 {
 ul li a:hover {
     color: black;
 }
+
+@media (max-width: 800px) {
+    #conteineur {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
